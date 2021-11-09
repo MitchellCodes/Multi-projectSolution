@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChuckNorrisAPI\ChuckNorrisAPI.csproj" />
+  </ItemGroup>
+
 </Project>
