@@ -1,8 +1,8 @@
 namespace ChuckNorrisWinForm
 {
-    public partial class Form1 : Form
+    public partial class ChuckNorrisForm : Form
     {
-        public Form1()
+        public ChuckNorrisForm()
         {
             InitializeComponent();
         }

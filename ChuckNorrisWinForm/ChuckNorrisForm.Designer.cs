@@ -1,6 +1,6 @@
 ﻿namespace ChuckNorrisWinForm
 {
-    partial class Form1
+    partial class ChuckNorrisForm
     {
         /// <summary>
         ///  Required designer variable.
