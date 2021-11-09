@@ -16,7 +16,9 @@ namespace ChuckNorrisWinForm
 
         private async void btnGetRandomJoke_Click(object sender, EventArgs e)
         {
-            
+            Joke randomJoke = await ChuckNorrisClient.GetRandomJoke();
+            string jokeText = randomJoke.JokeText;
+            MessageBox.Show(jokeText);
         }
     }
 }
