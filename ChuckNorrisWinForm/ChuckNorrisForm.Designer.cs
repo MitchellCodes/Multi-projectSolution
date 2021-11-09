@@ -48,6 +48,7 @@
             this.btnGetRandomJoke.TabIndex = 1;
             this.btnGetRandomJoke.Text = "Get Random Joke";
             this.btnGetRandomJoke.UseVisualStyleBackColor = true;
+            this.btnGetRandomJoke.Click += new System.EventHandler(this.btnGetRandomJoke_Click);
             // 
             // ChuckNorrisForm
             // 
